@@ -1,0 +1,235 @@
+.header{
+    padding: 1em;
+    .my{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+        .img{
+            width: 25%;
+        }
+        .into{
+            width: 55%;
+            h1{
+                font-weight: bold;
+                padding-top: 7px;
+            }
+            p{
+                color: #ccc;
+            }
+        }
+        .span{
+            width: 10%;
+            line-height: 76px;
+            color: #ccc;
+            text-align: right;
+        }
+    }
+
+    .bemo{
+        display: flex;
+        justify-content: space-between;
+        .box{
+            width: 25%;
+            text-align: center;
+            p{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+        }
+    }
+    @media screen and (max-width:480px) {
+        &{
+           .my{
+               .into{
+                   h1{
+                       padding-top: 25px;
+                   }
+               }
+               .span{
+                   line-height: 112px;
+               }
+           } 
+        }
+    }
+    @media screen and (max-width:420px) {
+        &{
+           .my{
+               .into{
+                   h1{
+                       padding-top: 16px;
+                   }
+                }
+               .span{
+                line-height: 96px;
+            }
+           } 
+        }
+    }
+    @media screen and (max-width:320px) {
+        &{
+           .my{
+               .into{
+                   h1{
+                       padding-top: 7px;
+                   }
+               }
+               .span{
+                   line-height: 76px;
+               }
+           } 
+        }
+    }
+}
+
+// banner
+.slide{
+    padding: 0em 1em 1em;
+    img{
+        width: 100%;
+    }
+}
+
+// 我的订单
+.orders{
+    padding: 0em 1em 1em;
+    
+    .title{
+        padding: 0em 0em 1em;
+        display: flex;
+        justify-content: space-between;
+        
+        .title_left{
+            width: 50%;
+            h1{
+                font-weight: bold;
+            }
+
+        }
+        .title_right{
+            width: 50%;
+            text-align: right;
+            color: #ccc;
+            span{
+                line-height: 36px;
+            }
+        }
+    }
+
+    .lste{
+        padding: 0em 0em 1em;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        .lste_one{
+            width: 15%;
+            .img{
+                width: 80%;
+                padding-bottom: .5em;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+
+                }
+            }
+            p{
+                color: #666;
+            }
+        }
+    }
+
+    .card{
+        display: flex;
+        justify-content: space-between;
+        padding: 0em 0em 1em;
+
+        .card_one{
+            width: 48%;
+        }
+    }
+}
+
+// address
+.address{
+    padding: 0em 1em 1em;
+    .address_one{
+        padding: 0em 0em 2em;
+        display: flex;
+        justify-content: space-between;
+        .img{
+            width: 10%;
+            .img_div{
+                width: 80%;
+            }
+        }
+        .writing{
+            width: 45%;
+            p{
+                font-weight: bold;
+                line-height: 23px;
+                
+            }
+
+        }
+        .span{
+            width: 45%;
+            text-align: right;
+            color: #ccc;
+            span{
+                line-height: 23px;
+            }
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        &{
+            .address_one{
+                .writing{
+                    p{
+                        line-height: 36px;
+                    }
+                }
+                .span{
+                    span{
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:420px) {
+        &{
+            .address_one{
+                .writing{
+                    p{
+                        line-height: 30px;
+                    }
+                }
+                .span{
+                    span{
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        &{
+            .address_one{
+                .writing{
+                    p{
+                        line-height: 23px;
+                    }
+                }
+                .span{
+                    span{
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

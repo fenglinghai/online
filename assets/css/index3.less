@@ -1,0 +1,142 @@
+.shopping{
+    .ick{
+        padding: 1em;
+        .box{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 2em;
+
+            .we{
+                input{
+                    width: 1.5em;
+                    height: 1.5em;
+                    margin-top: 2.5em;
+                }
+            }
+            
+            .img{
+                border: 1px solid #f2f2f2;
+                border-radius: 15px;
+                width: 30%;
+            }
+            .cot{
+                width: 57%;
+                h2{
+                    font-size: 1.1em;
+                    font-weight: bold;
+                }
+                .list{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    background: #f7f7f7;
+                    .wid{
+                        width: 90%;
+                        padding: .2em;
+                    }
+                    .rig{
+                        width: 10%;
+                        span{
+                            padding-top: 7px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+    
+                .temo{
+                    padding-top: .7em;
+                    .left{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        &{
+            .ict{
+                .box{
+                    .we{
+                        input{
+                            margin-top: 2.5em;
+                        }
+                    }
+
+                    .cot{
+                        h2{
+                            font-size: 1em;
+                        }
+
+                        .list{
+                            .wid{
+                                padding: .2em;
+                            }
+
+                            .rig{
+                                span{
+                                    padding-top: 6px;
+                                }
+                            }
+                        }
+                        .temo{
+                            padding-top: .8em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+.liste{
+    background: #fff;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 4.4em;
+    left: 0;
+
+    .title{
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1em;
+        .we{
+            width: 40%;
+            margin-right: 1.5em;
+            margin-top: 1em;
+            .titl{
+                width: 1.5em;
+                height: 1.5em;  
+            }
+            span{
+                font-size: 1.1em;
+            }
+        }
+        .heji{
+            margin-top: 1em;
+            span{
+                color: red;
+            }
+        }
+    }
+    .gith{
+        width: 25%;
+        height: 4em;
+        background: #ff7020;
+        text-align: center;
+        h2{
+            padding-top: .4em;
+            font-size: 1.5em;
+            color: #fff;
+        }
+    }
+
+    
+}
